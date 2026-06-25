@@ -1,47 +1,95 @@
-#  StartupPilotAI
+# StartupPilotAI
 
 ## Your AI Co-Founder for Startup Success
 
-StartupPilotAI is an AI-powered platform that helps aspiring entrepreneurs understand startup-related documents using Retrieval-Augmented Generation (RAG).
+StartupPilotAI is an AI-powered platform that helps entrepreneurs understand startup-related documents using Retrieval-Augmented Generation (RAG) and Google Gemini.
 
-Instead of manually reading lengthy government policies, funding schemes, legal agreements, and business documents, users can upload PDFs and ask natural language questions. The system retrieves relevant information from the uploaded documents and generates evidence-based answers.
+Users can upload startup guides, legal agreements, funding schemes, and business documents, then ask questions in natural language. The system retrieves relevant information from the uploaded documents and generates accurate, context-aware answers.
 
 ---
 
 ## Problem Statement
 
-Startup founders often struggle to understand government policies, startup registration processes, funding opportunities, legal agreements, and compliance requirements because the information is spread across multiple lengthy documents.
+Entrepreneurs often struggle to understand startup policies, funding opportunities, legal documents, and compliance requirements because the information is spread across multiple lengthy documents.
 
-StartupPilotAI simplifies this process by providing document-based question answering, intelligent summaries, startup readiness analysis, funding recommendations, legal simplification, and personalized startup roadmaps.
+StartupPilotAI simplifies this process by allowing users to upload documents and receive intelligent, document-based answers instead of manually searching through hundreds of pages.
 
 ---
 
 ## Features
 
-* 📄 Smart PDF Upload
-* 💬 AI Question Answering
-* 📚 Automatic Summaries
-* 🎯 Startup Readiness Score
-* 💰 Funding Recommendation
-* 📋 Startup Checklist Generator
-* 📖 Compare Startup Documents
-* ⚖ Legal Language Simplifier
-* 🎤 Investor Question Generator
-* 📊 Startup Dashboard
+| Feature | Description |
+|---------|-------------|
+| PDF Upload | Upload startup-related documents |
+| AI Question Answering | Ask questions based on uploaded documents |
+| Document Summarization | Generate concise summaries |
+| Legal Language Simplification | Explain legal clauses in simple language |
+| Startup Readiness Score | Evaluate startup preparedness |
+| Funding Recommendation | Suggest suitable funding schemes |
+| Missing Document Detection | Identify required documents |
+| Startup Roadmap | Generate a personalized roadmap |
 
 ---
 
-## Tech Stack
+## Technology Stack
 
-* Python
-* Streamlit
-* Google Gemini
-* ChromaDB
-* PyMuPDF
-* Sentence Transformers
+- Python
+- Streamlit
+- Google Gemini
+- ChromaDB
+- Sentence Transformers
+- PyMuPDF
+- Git and GitHub
 
 ---
 
-## Status
+## Architecture
 
-🚧 Project Under Development
+```text
+User
+   │
+   ▼
+Upload PDF
+   │
+   ▼
+Text Extraction
+   │
+   ▼
+Chunking
+   │
+   ▼
+Embeddings
+   │
+   ▼
+ChromaDB
+   │
+   ▼
+Retriever
+   │
+   ▼
+Google Gemini
+   │
+   ▼
+AI Response
+```
+
+---
+
+## Project Structure
+
+```text
+StartupPilotAI
+│
+├── assets
+├── data
+├── docs
+├── src
+├── tests
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
