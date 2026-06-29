@@ -93,6 +93,9 @@ Embeddings             Relevant Context
       Personalized Guidance
 ```
 
+## Project Structure
+
+```text
 StartupPilotAI/
 │
 ├── app.py
@@ -106,8 +109,9 @@ StartupPilotAI/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── embeddings/
+│   └── processed/
+│
+├── embeddings/
 │
 ├── src/
 │   ├── pdf_loader.py
@@ -128,6 +132,4 @@ StartupPilotAI/
 │   └── sample_pdfs/
 │
 └── venv/
-
----
-
+```
