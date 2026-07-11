@@ -1,9 +1,1 @@
 venv/
-.env
-**/.env
-__pycache__/
-*.pyc
-chroma_db/
-docs/data/chroma_db/
-*.sqlite3
-.DS_Store
