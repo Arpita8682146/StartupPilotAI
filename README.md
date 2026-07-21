@@ -247,7 +247,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 **Outcome:** Production-ready, publicly deployed StartupPilotAI with polished UI, clean codebase, and complete documentation.
 
 ## 🚀 How to Use StartupPilotAI
-##1 Use api key AQ.Ab8RN6IAOzhuZxkUPxB3F_Wznzrpf2Y2pYM0M7v3cfMxekUtcw or u can create your own also 
+## 1.Use api key  u can create your own 
 
 
 ### 2. Upload Documents
